@@ -1,0 +1,201 @@
+footer {
+    background-color: #fbfbfb;
+    padding: 30px 0 5px 0;
+    border-top: 1px solid #eee;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+footer .main-footer li {
+    line-height: 2;
+}
+
+footer .main-footer li a, .list-info a {
+    color: #666;
+}
+
+.main-footer li a:hover {
+    color: #387ed1;
+}
+
+.row {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+}
+
+.column:first-child, .columns:first-child {
+    margin-left: 0;
+}
+
+.three {
+    flex-basis: 22%;
+    width: 22%;
+}
+
+.columns, .column {
+    box-sizing: border-box;
+    flex: 0 1 auto;
+}
+
+.footer-logo img {
+    padding: 10px 0;
+    width: 70%;
+}
+
+.copyright {
+    margin: 0;
+    font-size: 0.83rem;
+    color: #666;
+}
+
+footer ul, .list-info {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media {
+    padding: 0;
+    margin-top: 15px;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 13px;
+}
+
+.social-media a, 
+.social-media li i {
+    font-size: 1.25rem;
+    line-height: 1;
+    color: #424242;
+    padding: 0.4rem;
+}
+
+.social-media li i:hover {
+    color: #387ed1;
+    cursor: pointer;
+}
+
+.three {
+    flex-basis: 22%;
+    width: 22%;
+}
+
+.list-head {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.list-info a:hover {
+    color: #387ed1;
+}
+
+.list-info {
+    line-height: 2.3rem;
+}
+
+.footer-para {
+    color: #9b9b9b;
+    margin-top: 40px;
+}
+
+.footer-para p {
+    font-size: .65rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.footer-graveyard-links ul a {
+    text-decoration: none;
+}
+
+.footer-graveyard-links ul li {
+    display: inline;
+    font-size: 0.8rem;
+    margin-right: 20px;
+}
+
+.footer-graveyard-links ul li a {
+    color: #9b9b9b;
+    line-height: 4;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.footer-graveyard-links ul li a:hover {
+    color: #387ed1;
+}
+
+@media only screen and (max-width: 1100px) {
+    footer .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .row {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main-footer .column, .main-footer .columns {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .columns, .column {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer-logo img  {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    ul, .list-info {
+        padding: 0;
+        text-align: left;
+        list-style-position: inside;
+    }
+}
