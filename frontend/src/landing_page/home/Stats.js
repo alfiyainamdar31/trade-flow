@@ -42,7 +42,7 @@ function Stats() {
             </a>
             <a href="" className="link">
               Try Kite demo
-              <i className="fa fa-long-arrow-right mx-2" aria-hidden="true"></i>{" "}
+              <i className="fa fa-long-arrow-right" aria-hidden="true"></i>{" "}
             </a>
           </div>
         </div>
