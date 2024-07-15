@@ -8,7 +8,6 @@ function Education() {
           <img
             src="media\images\index-education.svg"
             alt="Index-education-image"
-
             style={{ width: "65%", marginLeft: "9%" }}
           />
         </div>
