@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function Hero() {
-    return (
-        <h1>Hero - Support</h1>
-    );
+  return <h1>Hero - Support</h1>;
 }
 
 export default Hero;
