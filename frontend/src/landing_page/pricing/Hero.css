@@ -1,0 +1,31 @@
+.pricing-header {
+    border-bottom: 1px solid #eee;
+}
+
+.pricing-sections {
+    padding: 80px 20px !important;
+}
+
+.mini-container {
+    width: 900px;
+    margin: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.calculator-links {
+    align-items: center;
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section {
+        padding: 30px 20px !important;
+    }
+}
