@@ -18,7 +18,8 @@ code {
   color: #666 !important;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.support-head a:hover {
   color: #387ed1 !important;
 }
 
