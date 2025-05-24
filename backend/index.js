@@ -11,9 +11,23 @@ const { PositionsModel } = require("./model/PositionsModel");
 const PORT = process.env.PORT || 3002;
 const uri = process.env.MONGO_URL;
 
+const allowedOrigins = process.env.ALLOWED_ORIGINS.split(",");
+
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      if (!origin) return callback(null, true);
+      if (allowedOrigins.indexOf(origin) === -1) {
+        const msg =
+          "The CORS policy for this site does not allow access from the specified Origin.";
+        return callback(new Error(msg), false);
+      }
+      return callback(null, true);
+    },
+  })
+);
 app.use(bodyParser.json());
 
 // app.get("/addHoldings", async (req, res) => {
@@ -194,7 +208,6 @@ app.get("/allPositions", async (req, res) => {
   let allPositions = await PositionsModel.find({});
   res.json(allPositions);
 });
-
 
 app.listen(PORT, () => {
   console.log("App is running on a port 3002");

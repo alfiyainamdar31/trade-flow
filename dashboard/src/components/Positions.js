@@ -5,14 +5,15 @@ import axios from "axios";
 // import { positions } from "../data/data";
 
 const Positions = () => {
-
   const [allPositions, setAllPositions] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3002/allPositions").then((res) => {
-      // console.log(res.data);
-      setAllPositions(res.data);
-    })
+    axios
+      .get(`${process.env.REACT_APP_API_BASE_URL}/allPositions`)
+      .then((res) => {
+        // console.log(res.data);
+        setAllPositions(res.data);
+      });
   }, []);
 
   return (
