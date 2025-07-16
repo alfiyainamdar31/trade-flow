@@ -5,7 +5,7 @@
 # Project Links
 
 - **Landing Page**: [Visit Landing Page](https://trade-flow-landing-page.onrender.com)
-- **Kite Frontend**: [Visit Kite Frontend](https://trade-flow.onrender.com)
+- **Kite Frontend**: [Visit Kite Frontend](https://trade-flow-kite.onrender.com)
 
 ## Project Structure
 
