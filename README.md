@@ -2,6 +2,11 @@
 
 **Trade Flow** is a fullstack application that replicates the core functionalities of Zerodha, including a trading dashboard, market analysis tools, and order management system.
 
+# Project Links
+
+- **Landing Page**: [Visit Landing Page](https://trade-flow-landing-page.onrender.com)
+- **Kite Frontend**: [Visit Kite Frontend](https://trade-flow.onrender.com)
+
 ## Project Structure
 
 The project is divided into three main folders:
